@@ -1,0 +1,14 @@
+<a href="#0">
+  <img src="assets/img/journals-modified.jpg" width="150" height="75"alt="">
+  <h3>Journal</h3>
+</a>
+<!--break-->
+<a href="#0">
+  <img src="assets/img/talk.jpg" width="150" height="75" alt="">
+  <h3>Conference</h3>
+</a>
+<!--break-->
+<a href="#0">
+  <img src="assets/img/book-g11dba11fb_1280-modified.jpg" width="150" height="75" alt="">
+  <h3>Book chapter</h3>
+</a>
