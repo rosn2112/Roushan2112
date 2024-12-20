@@ -259,7 +259,7 @@ html {
     max-height: 750px;
     background-color: white;
     box-shadow: inset 60px 0 120px white ,0 0 10px 3px #fff,  /* inner white */
-    0 0 45px 20px blue;
+    0 0 5px 2px blue;
     opacity: 0.75;
     z-index: 10;
   }
