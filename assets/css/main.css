@@ -897,6 +897,7 @@ html {
     display: -ms-flexbox;
     display: flex;
     width: 960px;
+    height: 800px;
     max-width: 80%;
     height: 100%;
     -webkit-box-orient: vertical;
@@ -1142,7 +1143,7 @@ html {
   
   .about--banner {
     position: relative;
-    height: 475px;
+    height: 600px;
   }
   
   .about--banner h2 {
