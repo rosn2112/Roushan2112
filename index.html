@@ -8,9 +8,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="Research portfolio website">
-  <meta name="keywords" content="Electrochemistry, computational material science, computational chemistry, membrane separation, photocatalysis, electrocatalysis, Institute of chemical technology, Mumbai, ICT Mumbai, MSRIT, Chemical engineering, chemical engineer">
-  <meta name="author" content="Roushan Nigam Shaw">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento&display=swap">
@@ -24,6 +24,7 @@
 
     gtag('config', 'G-3DRPPPF4MF');
   </script>
+
 </head>
 <body>
 
@@ -88,7 +89,7 @@
                       <p class="slider--item-title">Computational chemistry &amp;
                         AI
                       </p>
-                      <p class="slider--item-description">I constantly use DFT and MD to find suitable catalysts and solvents for advanced energy applications. I am also developing generative AI to predict new crystal structures for plethora of applications (with a quirky approach :P). Happy material hunting!</p>
+                      <p class="slider--item-description">I am constantly use DFT and MD to find suitable catalysts and solvents for process energy applications. I am also developing generative AI to predict new crystal structures for plethora of applications (with a quirky approach :P). Happy material hunting!</p>
                     </a>
                   </li>
                   <!--break-->
@@ -140,7 +141,7 @@
 
           <li class="l-section section">
             <div class="about">
-              
+            
               <div class="about--banner">
                 <h2>Projects</h2>
                 <div id="" style="overflow-y:scroll; overflow-x:hidden; height:400px;">
@@ -162,13 +163,7 @@
                   synthesis. Carried out the various types of material characterization of the
                   synthesized materials.</p>
               </div>
-              <!--break-->
-              <div class="about--options">
-                <!--break-->
-                <!--add these as flex so that it is clickable display: flex; flex direction: column; align items: centre:-->
-                
-              </a>
-                <!--break-->
+
             </div>
           </div>
           </li>
@@ -197,22 +192,113 @@
           </li>
 
           <li class="l-section section">
+            
+            
             <div class="contact">
-              <div class="contact--lockup">
-                <div class="modal">
+              
+              <div class="news-container">
+                <!-- News Feed Section -->
+                <div class="news-feed">
+                  <h2>Some news!! (click them)</h2>
+                  <ul>
 
-                  <div class="modal--information">
-                    <p><i class="fa fa-map-marker" style="font-size:20px"></i> Surat</p>
-                    <a href="mailto:roshannigams6@gmail.com">roshannigams6@gmail.com</a>
-                    <a href="">+91 701**75270</a>
-                  </div>
+                    <li onclick="showModal('Collaboration update', 'Abstract of our work on coconut fibre floating Photocatalytst with TU Delft (YES! I learnt blender for it)', 'assets/img/coconutFibre3.jpg')">
+                      <img src="assets/img/coconutFibre3.jpg" alt="Update">
+                      <div>
+                        <strong>Collaboration update</strong> How does this abstract look like? (3rd January, 2025)
+                      </div>
+                    </li>
+                    
+                    <li onclick="showModal('Graduate work update 4', 'Heading for a conference (CHEMCON 2024, NIT Jalandhar)! I am excited to present my findings there!', 'assets/img/NITJ.jpg')">
+                      <img src="assets/img/NITJ.jpg" alt="Update">
+                      <div>
+                        <strong>Graduate work update 4</strong>  (20th Dec, 2024)
+                      </div>
+                    </li>
 
-                  <ul class="modal--options">
-                    <li><a href="https://www.instagram.com/ron___21_12/"><i class="fa fa-instagram" style="font-size:20px"> </i>    Instagram</a></li>
-                    <li><a href="www.linkedin.com/in/ron2112"><i class="fa fa-linkedin-square" style="font-size:20px"></i> LinkedIn</a></li>
+                    <li onclick="showModal('Graduate work update 3', 'Staring at a potential setback? NOOOO! These results turned out to be a proof of concept for my hypothesis, This paper is going to be HUGEEE!!', 'assets/img/CurrentDensityComparison.png')">
+                      <img src="assets/img/CurrentDensityComparison.png" alt="Update">
+                      <div>
+                        <strong>Graduate work update 3</strong>  (15th Nov, 2024)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('Breakthrough in Membrane Separation', 'Gas separation membranes with Faraday Earth! super excited for this chapter!', 'assets/img/GAS.jpg')">
+                      <img src="assets/img/GAS.jpg" alt="Update">
+                      <div>
+                        <strong>Collaboration</strong> Collaboration with Faraday Earth! (1st Nov, 2024)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('LATEST ELECTROLYZER', 'From last two years I have been trying to create this, here it is now! I cannot reveal a photo yet so here is a cat:P', 'assets/img/CAT.jpg')">
+                      <img src="assets/img/CAT.jpg" alt="Update">
+                      <div>
+                        <strong>LATEST ELECTROLYZER</strong> (28th August, 2024)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('Graduate work update 2', 'I designed a reactor and got it fabricated! This baby arrvied today!', 'assets/img/Reactor1.jpeg')">
+                      <img src="assets/img/Reactor1.jpeg" alt="Update">
+                      <div>
+                        <strong>Graduate work update 2</strong> New reactorrrrr!! (1st August, 2024)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('Graduate work update 1', 'Today I electroplated 3D printed plastic part, why am I so proud of it? because I created my own conductive paint and made this happen. Not the best finish but I will improve it.', 'assets/img/plastic electroplating.jpg')">
+                      <img src="assets/img/plastic electroplating.jpg" alt="Update">
+                      <div>
+                        <strong>Graduate work update 1</strong> Electroplated plastic part(9th May, 2024)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('New home!', 'Well, I am sad and happy at the same time because a. I graduated and I revieved the best project award for my on Ba doped lanthanum cobalt nickel oxide for OER! and Now I am at Institute of Chemical Technology!!! YAYYYY!! I feel accomplished!', 'assets/img/Awards.jpg')">
+                      <img src="assets/img/ICTM.jpg" alt="Update">
+                      <div>
+                        <strong>New home!</strong> Graduation and a new home! (15th September, 2023)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('New Electrolyzer', 'I fabricated a brand new flow electrolyzer, it works but not as good as it should. I need to share this... RAPID PROTOTYPING IS AMAZING AND I LEARNT CFD!!!!', 'assets/img/Flow electrolyzer 1.jpg')">
+                      <img src="assets/img/Flow electrolyzer 1.jpg" alt="Update">
+                      <div>
+                        <strong>New Electrolyzer</strong> Brand New electrolyzer (6th April, 2023)
+                      </div>
+                    </li>
+
+                    <li onclick="showModal('New home! (for 2 months)', 'I am joining CSIR-National Chemical Laboratory, Pune for an internship. This is amazing! I hope I learn a bit of computational chemistry there.', 'assets/img/NCL.jpg')">
+                      <img src="assets/img/NCL.jpg" alt="Update">
+                      <div>
+                        <strong>New home! (for 2 months)</strong>I am joining CSIR-National Chemical Laboratory, Pune (21st April, 2022)
+                      </div>
+                    </li>
                   </ul>
-
                 </div>
+              
+                <!-- Contact Card Section -->
+                <div class="contact-card">
+                  <h1 style="text-align: center;">Contact Me</h1>
+                  <p style="text-align: center;"><a href="mailto:roshannigams6@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></p>
+                  <p class="modal--options" style="text-align: center;"><a href="www.linkedin.com/in/ron2112"><i class="fa fa-linkedin" style="font-size:20px"></i></a></p>
+                  <p class="modal--options" style="text-align: center;"><a href="https://www.instagram.com/ron___21_12/"><i class="fa fa-instagram" style="font-size:20px"> </i></a></p>
+                </div>
+              </div>
+              
+              <!-- Modal Structure -->
+              <div id="news-modal" class="modal">
+                <div class="modal-content">
+                  <span class="close-button" onclick="closeModal()">&times;</span>
+                  <div class="modal-body">
+                    <img id="modal-image" src="" alt="Popup Image">
+                    <div>
+                      <h3 id="modal-title"></h3>
+                      <p id="modal-body"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+
               </div>
             </div>
           </li>          
@@ -232,5 +318,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+<script src="assets/js/contact.js"></script>
+
+
 </body>
 </html>
