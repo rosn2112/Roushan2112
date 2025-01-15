@@ -2269,6 +2269,12 @@ html {
 }
 
 .fa-envelope {
-  background: #007bb5;
+  background: #FFC0CB;
   color: white;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
 }
